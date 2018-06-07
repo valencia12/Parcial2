@@ -7,7 +7,9 @@ package AbstracFactory;
 
 import Demacia.FactoryDemacia;
 import Noxus.FactoryNoxus;
-import Vehiculo.FactoryVehiculo;
+import Hyperloop.FactoryHyperloop;
+import Odiseus.FactoryOdiseus;
+import Tardis.FactoryTardis;
 import Voodolands.FactoryVoodolands;
 
 /**
@@ -20,13 +22,17 @@ public class FactoryProducer {
             case DEMACIANOS: 
                 return  new FactoryDemacia();
             case NEXEANOS:
-                return (AbstractFactory) new FactoryNoxus();
+                return  new FactoryNoxus();
             case VOODOLANDERS:
-                return (AbstractFactory) new FactoryVoodolands();
+                return  new FactoryVoodolands();
             default: 
                switch (vehi){
-                    case VEHICULO1:
-
+                    case HYPERLOOP:
+                       return new FactoryHyperloop();
+                    case ODISEUS:
+                       return new FactoryOdiseus();
+                    case TARDIS:
+                       return new FactoryTardis();
                     default:
                         return null;
                 }

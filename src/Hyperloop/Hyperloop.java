@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Vehiculo;
+package Hyperloop;
 
 /**
  *
  * @author Jorge
  */
-public interface Vehiculo {
+public interface Hyperloop {
     
 }

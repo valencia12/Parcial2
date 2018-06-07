@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package AbstracFactory;
+package Odiseus;
 
 /**
  *
  * @author Jorge
  */
-public enum TypeVehiculo {
-    HYPERLOOP,
-    ODISEUS,
-    TARDIS
+public interface Odiseus{
+    
 }
