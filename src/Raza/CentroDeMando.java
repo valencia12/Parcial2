@@ -10,5 +10,8 @@ package Raza;
  * @author Jorge
  */
 public class CentroDeMando {
+    private int recursos;
+    private int recuersosR;
+    
     
 }
