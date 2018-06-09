@@ -10,16 +10,22 @@ package Demacia;
  * @author Jorge
  */
 public class SuperDemaciano {
+    private String nombre;
     private int vida;
     private int ataque;
     private int tiempo;
     
     private SuperDemaciano(){}
 
-    public SuperDemaciano(int vida, int ataque, int tiempo) {
+    public SuperDemaciano(String nombre,int vida, int ataque, int tiempo) {
+        this.nombre = nombre;
         this.vida = vida;
         this.ataque = ataque;
         this.tiempo = tiempo;
+    }
+
+    public String getNombre() {
+        return nombre;
     }
 
     public int getAtaque() {
@@ -44,6 +50,10 @@ public class SuperDemaciano {
 
     public void setVida(int vida) {
         this.vida = vida;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
     
     

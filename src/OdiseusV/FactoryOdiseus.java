@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Tardis;
+package OdiseusV;
 
 import AbstracFactory.AbstractFactory;
 
@@ -11,8 +11,7 @@ import AbstracFactory.AbstractFactory;
  *
  * @author Jorge
  */
-public class FactoryTardis implements AbstractFactory {
-
+public class FactoryOdiseus implements AbstractFactory{
     @Override
     public String getDemacia(int a) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -32,5 +31,4 @@ public class FactoryTardis implements AbstractFactory {
     public String getVehiculos(int d) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

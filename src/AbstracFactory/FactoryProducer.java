@@ -7,9 +7,9 @@ package AbstracFactory;
 
 import Demacia.FactoryDemacia;
 import Noxus.FactoryNoxus;
-import Hyperloop.FactoryHyperloop;
-import Odiseus.FactoryOdiseus;
-import Tardis.FactoryTardis;
+import HyperloopV.FactoryHyperloop;
+import OdiseusV.FactoryOdiseus;
+import TardisV.FactoryTardis;
 import Voodolands.FactoryVoodolands;
 
 /**
