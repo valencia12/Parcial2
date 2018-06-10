@@ -7,8 +7,11 @@ package Demacia;
 
 /**
  *
- * @author UCA
+ * @author Jorge
  */
 public class Tropas {
-    public void crearTropas(){}
+    public void crearTropas(){
+        
+    
+    }
 }
