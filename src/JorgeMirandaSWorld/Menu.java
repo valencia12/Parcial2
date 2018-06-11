@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package JorgeMirandaSWorld;
+import AbstracFactory.FactoryProducer;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 /**
@@ -14,7 +15,7 @@ public class Menu {
    
    private static Menu menu;
    
-   private Menu(){
+   Menu(){
    }
    
    public static Menu getInstance(){
@@ -42,14 +43,26 @@ public class Menu {
       }
    //Jugador 1
    public void op2(){
-      int opc = 4;
+      int opc;
        Scanner leer = new Scanner(System.in);
-       while(opc != 2){
-           try{
+       FactoryProducer raza = new FactoryProducer();
+       System.out.println("Jugador 1: ");
+       System.out.println("Seleccione la raza: ");
+       System.out.println("1. Demacia");
+       System.out.println("2. Nexeanos");
+       System.out.println("3. Voodolanders");    
+       try{
+               
                opc = leer.nextInt();
                 switch(opc){
                     case 1:
-                        System.out.println("Seleccione la raza: ");
+                        if (opc==1){
+                         String Demacia = "Demacia";
+                         System.out.println("Jugador 1: ");
+                         System.out.println("DEMACIANO..");
+                         System.out.println("");
+                          
+                        }
                       default:
                         System.out.println("Ingrese una opcion valida");
                }
@@ -64,4 +77,4 @@ public class Menu {
    // Jugador 2
    
    
- }
+ 

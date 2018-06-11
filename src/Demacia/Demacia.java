@@ -10,5 +10,12 @@ package Demacia;
  * @author Jorge
  */
 public interface Demacia {
-    
+    //Metodos
+    void Atacar();
+    void Creartropas();
+    void VerificarTropas();
+    void EntrenarTropas();
+    void DesplegarSuperSoldado();
+    void Defender();
+    void Contruir();
 }

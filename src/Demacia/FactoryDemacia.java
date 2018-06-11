@@ -6,6 +6,8 @@
 package Demacia;
 
 import AbstracFactory.AbstractFactory;
+import Noxus.Noxus;
+import Voodolands.Voodolands;
 
 /**
  *
@@ -14,23 +16,25 @@ import AbstracFactory.AbstractFactory;
 public class FactoryDemacia implements AbstractFactory{
 
     @Override
-    public String getDemacia(int a) {
+    public Demacia getDemacia(String type) {
+        switch (type){
+            case "Tropas":
+                return new Tropas();
+            case "":
+        }
+        return null;
+    }
+
+    @Override
+    public Noxus getNoxus(String type) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public String getNoxus(int b) {
+    public Voodolands getVoodolands(String type) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    @Override
-    public String getVoodolands(int c) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public String getVehiculos(int d) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+   
     
 }

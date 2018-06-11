@@ -6,29 +6,29 @@
 package HyperloopV;
 
 import AbstracFactory.AbstractFactory;
+import Demacia.Demacia;
+import Noxus.Noxus;
+import Voodolands.Voodolands;
 
 /**
  *
  * @author Jorge
  */
 public class FactoryHyperloop implements AbstractFactory {
+
     @Override
-    public String getDemacia(int a) {
+    public Demacia getDemacia(String type) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public String getNoxus(int b) {
+    public Noxus getNoxus(String type) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public String getVoodolands(int c) {
+    public Voodolands getVoodolands(String type) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
-    @Override
-    public String getVehiculos(int d) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    
 }

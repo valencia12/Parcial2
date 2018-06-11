@@ -5,13 +5,17 @@
  */
 package AbstracFactory;
 
+import Demacia.Demacia;
+import Noxus.Noxus;
+import Voodolands.Voodolands;
+
 /**
  *
  * @author Jorge
  */
 public interface AbstractFactory {
-    String getDemacia(int a);
-    String getNoxus(int b);
-    String getVoodolands(int c);
-    String getVehiculos(int d);
+    Demacia getDemacia(String type);
+    Noxus getNoxus(String type);
+    Voodolands getVoodolands(String type);
+    
 }

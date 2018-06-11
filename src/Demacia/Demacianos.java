@@ -9,52 +9,41 @@ package Demacia;
  *
  * @author UCA
  */
-public class Demacianos {
-    private String nombre;
-    private int vida;
-    private int ataque;
-    private int tiempo;
-
-    public Demacianos() {
+public class Demacianos implements Demacia {
+    
+    @Override
+    public void Atacar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public Demacianos(String nombre, int vida, int ataque, int tiempo) {
-        this.nombre = nombre;
-        this.vida = vida;
-        this.ataque = ataque;
-        this.tiempo = tiempo;
+    @Override
+    public void Creartropas() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public int getAtaque() {
-        return ataque;
+    @Override
+    public void VerificarTropas() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public String getNombre() {
-        return nombre;
+    @Override
+    public void EntrenarTropas() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public int getTiempo() {
-        return tiempo;
+    @Override
+    public void DesplegarSuperSoldado() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public int getVida() {
-        return vida;
+    @Override
+    public void Defender() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public void setAtaque(int ataque) {
-        this.ataque = ataque;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setTiempo(int tiempo) {
-        this.tiempo = tiempo;
-    }
-
-    public void setVida(int vida) {
-        this.vida = vida;
+    @Override
+    public void Contruir() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
