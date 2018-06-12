@@ -10,5 +10,6 @@ package OdiseusV;
  * @author Jorge
  */
 public interface Odiseus{
+    void Atacar();
     
 }

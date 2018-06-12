@@ -10,5 +10,11 @@ package Voodolands;
  * @author Jorge
  */
 public interface Voodolands {
-    
+    void Atacar();
+    void Creartropas();
+    void VerificarTropas();
+    void EntrenarTropas();
+    void DesplegarSuperSoldado();
+    void Defender();
+    void Contruir();
 }

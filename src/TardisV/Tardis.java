@@ -10,5 +10,5 @@ package TardisV;
  * @author Jorge
  */
 public interface Tardis {
-    
+   void Crear();
 }

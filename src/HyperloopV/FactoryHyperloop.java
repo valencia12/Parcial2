@@ -8,6 +8,8 @@ package HyperloopV;
 import AbstracFactory.AbstractFactory;
 import Demacia.Demacia;
 import Noxus.Noxus;
+import OdiseusV.Odiseus;
+import TardisV.Tardis;
 import Voodolands.Voodolands;
 
 /**
@@ -28,6 +30,21 @@ public class FactoryHyperloop implements AbstractFactory {
 
     @Override
     public Voodolands getVoodolands(String type) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Hyperloop GetHyperloop(String type) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Odiseus GetOdiseus(String type) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Tardis GetTardis(String type) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

@@ -10,5 +10,6 @@ package Recursos;
  * @author Jorge
  */
 public interface Recursos {
+    void Generador();
     
 }

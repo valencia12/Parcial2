@@ -11,27 +11,14 @@ import AbstracFactory.AbstractFactory;
  *
  * @author Jorge
  */
-public class FactoryRecursos implements AbstractFactory{
+public class FactoryRecursos implements Recursos{
 
     @Override
-    public String getDemacia(int a) {
+    public void Generador() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    @Override
-    public String getNoxus(int b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public String getVoodolands(int c) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public String getVehiculos(int d) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+   
     
     
     
