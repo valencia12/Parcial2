@@ -10,5 +10,11 @@ package Edificaciones;
  * @author Jorge
  */
 public interface Edificaciones {
+    void DesplegarEdificacion(int lp, int damage);
+    int getLp();
+    void setLp(int lp);
+    int getDamage();
+    void setDamage(int damage);
+    int Coins();
     
 }

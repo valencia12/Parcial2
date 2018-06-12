@@ -7,7 +7,7 @@ package Edificaciones;
 
 /**
  *
- * @author UCA
+ * @author Jorge
  */
 public class Edificaciones1 {
      

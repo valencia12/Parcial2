@@ -17,6 +17,7 @@ import Voodolands.Voodolands;
  * @author Jorge
  */
 public interface AbstractFactory {
+    //Creacion de Razas
     Demacia getDemacia(String type);
     Noxus getNoxus(String type);
     Voodolands getVoodolands(String type);
@@ -24,4 +25,6 @@ public interface AbstractFactory {
     Hyperloop GetHyperloop(String type);
     Odiseus GetOdiseus(String type);
     Tardis GetTardis(String type);
+    //Edificaciones
+    
 }
